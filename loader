@@ -5,7 +5,7 @@ cloneref = cloneref or function(a)
 end
 
 gethui = gethui or function()
-    return game:GetService("CoreGui")
+    return instance.new("ScreenGui", game:GetService("CoreGui")
 end
 
 if game.GameId == 6035872082 then
