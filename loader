@@ -1,0 +1,13 @@
+-- hi skids
+
+cloneref = cloneref or function(a)
+    return a
+end
+
+gethui = gethui or function()
+    return game:GetService("CoreGui")
+end
+
+if game.GameId == 6035872082 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Winxty/Asphalt/refs/heads/main/src'))()
+end
